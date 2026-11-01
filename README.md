@@ -1,5 +1,37 @@
 # 🚀 TuxAssist - Advanced Terminal AI Agent
 
+<!-- INÍCIO: atalhos de download e instalação -->
+<div align="center">
+
+<a href="https://github.com/snaidermadilus-debug/MCPServer-iai/archive/refs/heads/main.zip">
+  <img src="https://img.shields.io/badge/📦%20Baixar%20Projeto-ZIP-blue?style=for-the-badge" alt="Baixar Projeto ZIP">
+</a>
+&nbsp;
+<a href="https://github.com/snaidermadilus-debug/MCPServer-iai">
+  <img src="https://img.shields.io/badge/🐙%20Abrir%20no%20GitHub-black?style=for-the-badge&logo=github" alt="Abrir no GitHub">
+</a>
+
+</div>
+
+### ⚡ Instalação rápida das dependências
+
+**Termux / Linux / Windows — Python 3:**
+
+```bash
+python -m pip install google-genai rich mcp
+```
+
+**ESP32-S3 — Arduino IDE / ArduinoDroid:**
+
+- Instale o pacote de placas **ESP32**.
+- Use a placa **ESP32-S3 Dev Module** (ou o modelo correspondente).
+- Não é necessário instalar bibliotecas externas ZIP para o firmware descrito neste README.
+
+> 📋 **Copiar código:** os blocos de código abaixo podem ser copiados diretamente pelo botão de copiar exibido pelo GitHub no bloco de código.
+
+<!-- FIM: atalhos de download e instalação -->
+
+
 O **TuxAssist** é um assistente de Inteligência Artificial de alto desempenho desenvolvido para rodar nativamente no **Termux** (Android). Ele atua como um agente autônomo capaz de ler o sistema de arquivos, executar comandos locais e interagir com hardwares remotos (ESP32-S3) através do protocolo MCP (Model Context Protocol).
 
 Diferente de wrappers de IA comuns, o TuxAssist possui "mãos e olhos" no seu sistema: ele pode compilar códigos, escanear redes, ler logs e interagir com componentes eletrônicos em tempo real sem sair da interface do terminal.
@@ -1814,4 +1846,5 @@ void loop() {
     dnsServer.processNextRequest();
   }
 }
+
 
