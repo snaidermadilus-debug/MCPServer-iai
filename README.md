@@ -90,7 +90,7 @@ Bibliotecas Nativas Utilizadas (Já embutidas no pacote ESP32):
 
 
 
-HODIGO DO ESP32 S3
+CODIGO DO ESP32 S3 PARA COMPILAR NO ANDROID
 
 
 
